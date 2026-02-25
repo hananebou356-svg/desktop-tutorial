@@ -1,0 +1,221 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: min(1rem,10%);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.navbar{
+    padding: min(1rem,10%);
+}
+a{
+    text-decoration: none;
+    padding: 12px;
+    color: black;
+}
+.booking{
+    width: 14%;
+    color: white;
+    background-color: #03c1f0;
+    border: none;
+}
+/* partie 2 */
+.parent{
+    height: 8cm;
+    background-image: url(../Newnew/ho/dent-numérique-futuriste-dans-l-espace-cosmique-le-modèle-d-lumineux-symbolise-innovation-en-soins-dentaires-dentisterie-de-385343482.webp);
+    background-size: cover;
+    text-align: center;
+    padding: 4cm;
+}
+.first{
+    font-size: xx-large;
+    color: white;
+    padding: 0 6cm 0 6cm ;
+    
+}
+.second{
+   font-size: medium; 
+   color: white;
+   padding: 0 5cm 1cm 5cm ;
+}
+.bt{
+    width: 14%;
+    color: white;
+    background-color: #03c1f0;
+    border-color: #03c1f0;
+}
+.btn{
+    background-color: none;
+    color: #03c1f0;
+    border-color: #03c1f0;
+    width: 14%
+}
+/* partie3 */
+.kinder{
+    display: flex;
+    padding: 2cm 3cm 0 5cm;
+}
+.pro{
+    height: 12cm;
+}
+progress{
+    width: 100%;
+}
+progress {
+  border: 1px solid #ccc;
+
+}
+
+progress::-webkit-progress-bar {
+  background-color: #eee;
+}
+
+progress::-webkit-progress-value {
+  background: #03c1f0;
+}
+
+
+.kind{
+    padding:3cm 3cm 3cm 1cm;
+}
+.lab{
+    display: flex;
+    justify-content: space-between;
+}
+hr{
+    border: 1px solid rgb(176, 176, 176);
+    width: 75%;
+}
+.child{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    text-align: center;
+}
+.card{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+}
+.partie4{
+        background-image: url(../Newnew/ho/dent-numérique-futuriste-dans-l-espace-cosmique-le-modèle-d-lumineux-symbolise-innovation-en-soins-dentaires-dentisterie-de-385343482.webp);
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        color: white;
+}
+.dentist{
+    height: 50%;
+    padding: 50px;
+}
+.blue{
+    text-align: left;
+    width: 20%;
+    border:2px solid #03c1f0;
+}
+/* partie5 */
+.grid{
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr;
+    grid-template-rows: repeat(10,1fr);
+    gap: 8px;
+    padding: 0 100px 10px 100px;
+}
+.salut{
+    background-color: #e8e8e8;
+    height: 1cm;
+    text-align: left;
+}
+.n0{
+    background-color: #03c1f0;
+    color: white;
+}
+.tout{
+    text-align: center;
+}
+.blu{
+    border: 2px solid #03c1f0;
+    width: 8%;
+}
+.read{
+    height: 1cm;
+    color: white;
+    background-color: #03c1f0;
+    border: none;
+}
+.partie5{
+    text-align: center;
+}
+/* partie6 */
+.grand{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(4,1fr);
+    width: 60%;
+    align-items: center;
+    padding: 0 2cm 0 8cm;
+}
+input{
+    gap: 10px;
+    width: 10cm;
+    background-color: transparent;
+}
+.a7{
+    grid-column: 1/3;
+    grid-row: 4;
+}
+.a7 .tarea{
+    width: 94%;
+    background-color: transparent;
+}
+.partie6{
+    text-align: center;
+}
+.partie6{
+        background-image: url(../Newnew/ho/dent-numérique-futuriste-dans-l-espace-cosmique-le-modèle-d-lumineux-symbolise-innovation-en-soins-dentaires-dentisterie-de-385343482.webp);
+        background-size: cover;
+        justify-content: center;
+        color: white;
+        padding: 1cm 1cm 2cm 1cm;
+}
+.our{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 50%;
+
+}
+.doctor{
+    width: 50%;
+}
+.ourdoc{
+    justify-content: center;
+}
+.texte{
+    background-color: #037e9c;
+    color: #fff;;
+    width: 50%;
+}
+h3{
+    margin: 0;
+}
+P{
+    margin: 0;
+}
+.commanter{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-image: url(../Newnew/ho/dent-numérique-futuriste-dans-l-espace-cosmique-le-modèle-d-lumineux-symbolise-innovation-en-soins-dentaires-dentisterie-de-385343482.webp);
+        background-size: cover;
+    color: white;
+    padding: 10px 200px 5px 200px;
+    gap: 10px;
+    margin: 1cm 0 1cm 0;
+}
+.comm{
+    width: 10%;
+    border-radius: 100%;
+}
+.person{
+    padding: 15px 500px 0 0;
+}

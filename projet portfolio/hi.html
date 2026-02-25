@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Exemple Boolean</title>
+</head>
+<body>
+  <h2>Bienvenue ! 👋</h2>
+
+  <label>Entrez votre nom :</label>
+  <input type="text" id="username" placeholder="Votre nom ici">
+  <button onclick="checkName()">Valider</button>
+
+  <p id="message"></p>
+
+  <script>
+    function checkName() {
+      // ناخدو القيمة من input
+      let name = document.getElementById("username").value;
+
+      // نحولوها إلى Boolean
+      let hasName = Boolean(name); // true إلا كان فيها نص، false إلا كانت خاوية
+
+      if (hasName) {
+        document.getElementById("message").textContent = "✅ Bonjour " + name + " !";
+      } else {
+        document.getElementById("message").textContent = "❌ Svp entrez votre nom.";
+      }
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+nav{background-color: rgb(2, 190, 168);
+height: 5rem;}
+.tout{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 1rem;
+    height: 30rem;
+    margin: 1rem;
+    
+}
+.go{
+    background-color: rgb(2, 190, 168);
+    border-radius: 1rem;
+    padding: 1rem;
+}
+@media (max-width:70rem){
+    .tout{
+        grid-template-columns: 1fr;
+        grid-template-rows: 2fr 1fr;
+        height: 20rem;
+    }
+    .n2{
+        grid-row: 2;
+    }
+
+}
+@media (max-width:38rem){
+    .tout{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        height: 30rem;
+    }
+    .n2{
+        display: none;
+    }
+    button{
+        position: absolute;
+        left: 25rem;
+    }
+}
+
+
+
+
+

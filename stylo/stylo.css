@@ -1,0 +1,55 @@
+nav{
+    background-color: rgb(246, 243, 239);
+    height: 700px;
+    padding: 20px;
+  
+a{
+    text-decoration: none;
+}
+.AA{
+gap: 40px;
+padding-top: 30px;
+
+}
+.ZZ{
+    background-color: rgb(221, 239, 225);
+height: 95px;
+display: flex;
+justify-content: space-between;
+color: rgb(17, 252, 91);
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+}
+span{
+   color: rgb(17, 252, 91); 
+}
+button{
+    background-color: rgb(17, 252, 91);
+    border: none;
+    color: white;
+    border-radius: 20px;
+}
+.CC{
+    color: rgb(17, 252, 91) ;
+    background-color: white;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    background-color: rgb(121, 225, 105);
+    width: 250px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    
+}
+.EE{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px 100px;
+
+}

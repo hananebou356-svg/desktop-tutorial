@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <h2>Exemples d'opérateurs logiques</h2>
+
+    <script>
+        let age = 16;
+        let aPermis = false;
+
+        // ET logique
+        if (age >= 18 && aPermis) {
+            console.log("Tu peux conduire 🚗");
+        } else {
+            console.log("Tu ne peux pas conduire ❌");
+        }
+
+        // OU logique
+        let jour = "dimanche";
+        if (jour === "samedi" || jour === "dimanche") {
+            console.log("C’est le week-end 😎");
+        } else {
+            console.log("Jour de travail 💼");
+        }
+
+        // NON logique
+        let estConnecte = false;
+        if (!estConnecte) {
+            console.log("Tu n’es pas connecté 🔒");
+        }
+    </script>
+</body>
+
+</html>
